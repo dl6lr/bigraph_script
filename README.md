@@ -11,3 +11,6 @@ My device was dirty and malfunctioning due to hardened grease and lacks any ROM 
 
 This is a picture of a similar device including cartridges:
 ![Rotring script](/media/rotring-nc-rapidoscript.webp "Rotring script")
+
+Additionally I got a bigraph scriber 1B90 for cheap, this device just had a shorted capacitor and now works.
+I dumped the ROMs and found one to contain the fonts. The AI suggests that this font ROM is parsed correctly with the bigraph script 1R90 as well, so I will make a board with a 27C512 to test that.
