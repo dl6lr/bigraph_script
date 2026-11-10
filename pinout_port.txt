@@ -1,0 +1,50 @@
+Edge connector 38pol 1.27mm on backside only (solder side)
+Board abt. 53.5mm wide and at least 31mm length.
+
+from left to right from the solder side:
+
+01 +5V
+02 Card detection? low when card is present? 5)
+03 free?
+04 A15 2)
+05 A14 2)
+06 R/!W (to LS244 with pullup)
+07 A13 2)
+08 A8  2)
+09 A9 2)
+10 A11 2)
+11 !CS (to LS244 with pullup from HCT138)
+12 A10 2)
+13 !CS (to LS244 with pullup from HCT138)
+14 D7 via LS645 Pin9
+15 D6 via LS645 Pin8
+16 D5 via LS645 Pin7
+17 D4 via LS645 Pin6
+18 D3 via LS645 Pin5
+19 GND
+20 free?
+21 free?
+22 free?
+23 GND
+24 free?
+25 GND
+26 D2 via LS645 Pin4
+27 D1 via LS645 Pin3
+28 D0 via LS645 Pin2
+29 A0 1)
+30 A1 1)
+31 A2 1)
+32 A3 1)
+33 A4 1)
+34 A5 1)
+35 A6 1)
+36 A7 1)
+37 A12 2)
+38 +5V
+
+
+1) First HCT541 on left side above 6264
+2) Second HCT541 above 68008
+3) data bus via HCT374
+4) via LS645 with R/!W from 68008 and gated !G with the same signal as !CS
+5) HCT541 with the 4 bits of the DIP switch
