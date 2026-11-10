@@ -1,5 +1,5 @@
 # bigraph_script
-Rotring bigraph script reverse engineering
+Rotring bigraph script 1R90 reverse engineering
 
 The bigraph script is a scripting tool for technical designers, aiding in adding text according to DIN/ISO to drawings.
 The device plots with an ink pen text and symbols. It features a keyboard and a ROM slot for Fonts.
